@@ -4,6 +4,8 @@
 !.gitignore
 !.gitconfig
 !.gitmessage
+!./hooks
+!./hooks/post-commit
 !.spacemacs
 !.zshrc
 !.zprofile
