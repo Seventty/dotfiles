@@ -1,3 +1,4 @@
+
 [credential]
 	helper = store
 [user]
@@ -7,4 +8,4 @@
 	defaultBranch = main
 [core]
 	autocrlf = input
-	hooksPath = hooks
+	hooksPath = ./hooks
