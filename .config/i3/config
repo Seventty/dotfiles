@@ -7,7 +7,7 @@ bindsym $mod+Return exec alacritty
 # Kill focused window
 bindsym $mod+Shift+q kill
 
-########## rofi Stuff ############
+########## Rofi Stuff ############
 bindsym $mod+w exec --no-startup-id rofi -show window "Which program will you run?"
 bindsym $mod+d exec --no-startup-id rofi -show drun "Which program will you run?"
 ######################################
