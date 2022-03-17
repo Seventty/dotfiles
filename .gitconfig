@@ -1,0 +1,9 @@
+[credential]
+	helper = store
+[user]
+	name = seventty
+	email = elmastigeron2015@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input
