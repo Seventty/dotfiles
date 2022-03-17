@@ -139,7 +139,7 @@ gaps inner 6
 # Audio
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 2%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 2%-
-bindsym $mod+m exec --no-startup-id amixer -q sset Master toggle
+bindsym $mod+m exec --no-startup-id amixer -q set Master toggle
 
 # Screenshots
 bindsym Print exec flameshot full -c
