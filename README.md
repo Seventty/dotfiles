@@ -15,6 +15,7 @@
 | [Manjaro](https://manjaro.org/)                          | My second love!                                                  |
 | [Zsh](https://github.com/zsh-users/zsh)                  | The most powerful shell out there!                               |
 | [Powerlevel10k](https://github.com/romkatv/powerlevel10k)| The most awesome Powerline theme for ZSH around!                 |
+| [Colorls](https://github.com/athityakumar/colorls#installation)| Use this to set the colorls command configured in zsh alias|
 | [neofetch](https://github.com/dylanaraps/neofetch)       | A fast, highly customizable system ifo script                    |
 | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)    | Fonts patched with lots of amazing icons (I use Source Code Pro) |
 
