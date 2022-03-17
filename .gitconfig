@@ -7,3 +7,4 @@
 	defaultBranch = main
 [core]
 	autocrlf = input
+	hooksPath = hooks
