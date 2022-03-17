@@ -1,7 +1,7 @@
 <div align="center">
 
 ### ⚜️ ️My Arch Linux/Manjaro config dotfiles with i3 + Neovim + Zsh + Rofi + Neofetch ⚜️
-![Desktop](.images/ZeroS.png)
+![Desktop](.images/ZeroSeventty.png)
 </div>
 
 ------
