@@ -8,4 +8,3 @@
 [core]
 	autocrlf = input
 	hooksPath = hooks
-
