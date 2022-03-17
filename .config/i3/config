@@ -30,6 +30,13 @@ bindsym $mod+f fullscreen toggle
 # Toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
+# Always toggle in
+for_window [window_role="About"] floating enable
+for_window [class="vlc"] floating enable
+for_window [title="Authy"] floating enable
+for_window [class="alacritty"] floating enable
+for_window [class="Konsole"] floating enable
+
 # Change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
@@ -77,12 +84,20 @@ bindsym $mod+Shift+r restart
 
 ######### Resize Mode Config #########
 mode "resize" {
-  bindsym h resize shrink width 2 px or 2 ppt
+    # Pressing the keys h,j,k,l
+    bindsym h resize shrink width 2 px or 2 ppt
     bindsym j resize grow height 2 px or 2 ppt
     bindsym k resize shrink height 2 px or 2 ppt
     bindsym l resize grow width 2 px or 2 ppt
 
+    # Same shit but pressing the arrows
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
+
     bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -134,3 +149,5 @@ bindsym Control+Alt+Print exec flameshot screen -c
 # Brighness
 bindsym XF86MonBrightnessDown exec brightnessctl set 2%-
 bindsym XF86MonBrightnessUp exec brightnessctl set +2%
+
+exec nitrogen --restore
