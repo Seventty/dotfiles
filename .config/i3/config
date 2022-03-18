@@ -36,6 +36,9 @@ bindsym $mod+f fullscreen toggle
 # Toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
 # Always toggle in
 for_window [window_role="About"] floating enable
 for_window [class="vlc"] floating enable
@@ -47,8 +50,7 @@ for_window [title="Telegram Desktop"] floating enable
 bindsym $mod+space focus mode_toggle
 
 # Change spanish layout to english with alt+shift
-exec setxkbmap -layout us,es
-exec setxkbmap -option 'grp:alt_shift_toggle'
+exec --no-startup-id setxkbmap es,us -option 'grp:alt_shift_toggle'
 
 # Define names for workspaces.
 set $ws1 "1"
@@ -113,7 +115,7 @@ bindsym $mod+r mode "resize"
 
 ########## Bumblebee Status ##########
 bar {
-  font pango:JetBrains Mono 9
+  font pango:JetBrains Mono 8
 
     status_command /usr/bin/bumblebee-status \
     -m battery nic cpu load memory disk date time \
