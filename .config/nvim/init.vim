@@ -125,3 +125,34 @@ let g:javascript_conceal_underscore_arrow_function = "🞅"
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+" Automatic airline tab
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='deus'
+
+set noshowmode
+if !exists('g:airline_symbols')
+let g:airline_symbols = {}
+endif
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = 'arrow_forward'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = 'arrow_backward'
+let g:airline_symbols.linenr = '☰'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.notexists = '∄'
+let g:airline_symbols.whitespace = 'Ξ'
+
+" powerline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = '☰'
+let g:airline_symbols.maxlinenr = ''
+
+
