@@ -20,4 +20,5 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'
 Plug 'Yggdroot/indentLine'
+Plug 'Pocco81/AutoSave.nvim'
 call plug#end()

@@ -47,8 +47,10 @@ inoremap <silent><expr> <c-space> coc#refresh()
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 nnoremap <silent> K :call CocAction('doHover')<CR>
 nmap <leader>do <Plug>(coc-codeaction)
+autocmd VimEnter * AS
 
-" Use tab for trigger completion with characters ahead and navigate.
+
+"Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
 inoremap <silent><expr> <TAB>
