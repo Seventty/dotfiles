@@ -77,5 +77,5 @@ export SSH_AUTH_SOCK
 mkdir -p "$HOME"/.local/share/keyrings
 
 # This will set the keyboard layout at the startup
-setxkbmap -layout us,es
+setxkbmap -layout us,latam
 setxkbmap -option 'grp:alt_shift_toggle'
