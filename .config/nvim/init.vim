@@ -31,7 +31,8 @@ set signcolumn=number
 
 "--- Turning on the themes --"
 set termguicolors
-colorscheme dracula
+set background=dark
+colorscheme palenight
 
 "--- Keymaps and user config ---"
 let mapleader=" " "Use the spacebar as leadercap to run command faster
@@ -108,18 +109,18 @@ xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
 " Javascript Concealing Characters
-let g:javascript_conceal_function             = "ƒ"
-let g:javascript_conceal_null                 = "ø"
-let g:javascript_conceal_this                 = "@"
-let g:javascript_conceal_return               = "⇚"
-let g:javascript_conceal_undefined            = "¿"
-let g:javascript_conceal_NaN                  = "ℕ"
-let g:javascript_conceal_prototype            = "¶"
-let g:javascript_conceal_static               = "•"
-let g:javascript_conceal_super                = "Ω"
-let g:javascript_conceal_arrow_function       = "⇒"
-let g:javascript_conceal_noarg_arrow_function = "🞅"
-let g:javascript_conceal_underscore_arrow_function = "🞅"
+"let g:javascript_conceal_function             ="ƒ"
+"let g:javascript_conceal_null                 ="ø"
+"let g:javascript_conceal_this                 ="@"
+"let g:javascript_conceal_return               ="<"
+"let g:javascript_conceal_undefined            ="¿"
+"let g:javascript_conceal_NaN                  ="ℕ"
+"let g:javascript_conceal_prototype            ="¶"
+"let g:javascript_conceal_static               ="•"
+"let g:javascript_conceal_super                ="Ω"
+"let g:javascript_conceal_arrow_function       =">"
+"let g:javascript_conceal_noarg_arrow_function ="🞅"
+"let g:javascript_conceal_underscore_arrow_function ="🞅"
 
 " Changing default NERDTree arrow
 let g:NERDTreeDirArrowExpandable = '▸'
@@ -134,6 +135,7 @@ set noshowmode
 if !exists('g:airline_symbols')
 let g:airline_symbols = {}
 endif
+
 " unicode symbols
 let g:airline_left_sep = '»'
 let g:airline_left_sep = 'arrow_forward'

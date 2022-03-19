@@ -22,4 +22,5 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
 Plug 'Pocco81/AutoSave.nvim'
+Plug 'drewtempelmeyer/palenight.vim'
 call plug#end()
