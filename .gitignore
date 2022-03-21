@@ -18,6 +18,8 @@
 !.config/nvim/plugins/
 !.config/nvim/plugins/plugins.vim
 !.config/alacritty/
+!.config/kitty/
+!.config/kitty/kitty.conf
 !.config/alacritty/alacritty.yml
 !.config/betterlockscreenrc
 !.config/neofetch/
