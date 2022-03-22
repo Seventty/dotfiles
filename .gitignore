@@ -4,6 +4,7 @@
 !.gitignore
 !.gitconfig
 !.gitmessage
+!.wallpaper.jpg
 !./hooks
 !./hooks/post-commit
 !.spacemacs
