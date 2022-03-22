@@ -121,7 +121,7 @@ bar {
   font pango:JetBrains Mono 8
 
     status_command /usr/bin/bumblebee-status \
-    -m pomodoro battery nic cpu load memory disk pasink date time\
+    -m pomodoro battery nic cpu load memory disk pasink brightness date time\
     -t dracula-powerline \
     -p time.format="%l:%M %P" date.format="%a %e %b %Y"
 

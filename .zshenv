@@ -19,3 +19,5 @@ export ZSH=/usr/share/zsh
 
 # PIP
 export PATH=$HOME/.local/bin:$PATH
+
+sh .scripts/ghosts

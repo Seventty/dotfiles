@@ -85,6 +85,5 @@ alias la='colorls -a'
 alias lla='ls -la'
 alias x='ranger'
 alias pfile='pcmanfm'
-alias pacmanGhost='~/.scripts/pacman.sh'
 alias vi=vim
 alias v=nvim
