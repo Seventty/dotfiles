@@ -32,7 +32,7 @@
 | [Playerctl](https://github.com/acrisci/playerctl)                         | To display current song on i3blocks                                               |
 | brightnessctl |                    To modify the bright in the i3 bar | 
 
-| kitty |                   |        New terminal |
+| kitty |                      New terminal |
 | [Feh](https://github.com/derf/feh)                                        | Image viewer, useful to set a wallpaper                                           |
 | xfce4-power-manager                                                       | Simple way to monitor battery status                                              |
 | xfce4-notifyd                                                             | Helpful to get GTK notifications like current song or battery status              |
