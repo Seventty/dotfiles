@@ -87,3 +87,4 @@ alias x='ranger'
 alias pfile='pcmanfm'
 alias vi=vim
 alias v=nvim
+alias icat="kitty +kitten icat"
