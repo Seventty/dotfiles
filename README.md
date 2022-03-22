@@ -38,5 +38,5 @@
 ------
 
 <div>
-![screenshot](./.wallpaper.jpg)
+![screenshot](.wallpaper.jpg)
 </div>
