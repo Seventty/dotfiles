@@ -37,6 +37,4 @@
 
 ------
 
-<div>
 ![screenshot](.images/ScreenShot_wallpaper.png)
-</div>
