@@ -21,6 +21,7 @@
 !.config/alacritty/
 !.config/kitty/
 !.config/kitty/kitty.conf
+!.config/kitty/theme.conf
 !.config/alacritty/alacritty.yml
 !.config/betterlockscreenrc
 !.config/neofetch/
