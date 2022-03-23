@@ -17,7 +17,7 @@
 | [Powerlevel10k](https://github.com/romkatv/powerlevel10k)| The most awesome Powerline theme for ZSH around!                 |
 | [Colorls](https://github.com/athityakumar/colorls#installation)| Use this to set the colorls command configured in zsh alias|
 | [neofetch](https://github.com/dylanaraps/neofetch)       | A fast, highly customizable system ifo script                    |
-| [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)    | Fonts patched with lots of amazing icons (I use Source Code Pro) |
+| [Fira code](https://github.com/tonsky/FiraCode)    | Fonts patched with lots of amazing icons (I use Fira Code usually) |
 
 ------
 
@@ -30,8 +30,9 @@
 | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)                     | Fonts patched with lots of amazing icons (I use Source Code Pro)                  |
 | [Rofi](https://github.com/DaveDavenport/rofi)                             | A window switcher, application launcher and dmenu replacement                     |
 | [Playerctl](https://github.com/acrisci/playerctl)                         | To display current song on i3blocks                                               |
-| brightnessctl                                                             |                    To modify the bright in the i3 bar                             | 
-| kitty                                                                     |                    New terminal  							|
+| [brightnessctl](https://github.com/Hummer12007/brightnessctl)             |                    To modify the bright in the i3 bar                             | 
+| [kitty](https://sw.kovidgoyal.net/kitty/)                                 |                    New terminal better than alacritty  				|
+| [Bumblebee](https://bumblebee-status.readthedocs.io/en/main/)             | The bar status of i3 								|
 | [Feh](https://github.com/derf/feh)                                        | Image viewer, useful to set a wallpaper                                           |
 | xfce4-power-manager                                                       | Simple way to monitor battery status                                              |
 | xfce4-notifyd                                                             | Helpful to get GTK notifications like current song or battery status              |
